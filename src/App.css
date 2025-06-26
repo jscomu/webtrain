@@ -1,13 +1,11 @@
-.movewrap > div {padding-bottom: 0%; width: 100%;}
-
 .moving {
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url('/img/bg.jpg') 0 top / 200% repeat-x;
-    animation: moveright 50s linear infinite;   /*프레임 움직이는 속도 조절*/
+    background: url('/img/bg.jpg') 0 top / 400% repeat-x;   /*전체화면을 위해 사진 높이에따라 퍼센트 조정 400%*/
+    animation: moveright 80s linear infinite;   /*프레임 움직이는 속도 조절*/
 }
 
 @keyframes moveright {

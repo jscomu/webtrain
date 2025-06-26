@@ -43,3 +43,19 @@
   float: left;
   color: #999;
 }
+
+
+.ChatList {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.InputBar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+.InputBar input {
+  flex-grow: 1;
+}

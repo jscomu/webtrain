@@ -8,11 +8,12 @@ function Idea() {
     <>
     <h2>Chat Messages</h2>
 
+    <ul className='ChatList'>
 <div class="container">
-  
   <p>Hello. How are you today?</p>
   <span class="time-right">11:00</span>
 </div>
+
 
 <div class="container darker">
   
@@ -30,7 +31,17 @@ function Idea() {
   
   <p>Nah, I dunno. Play soccer.. or learn more coding perhaps?Nah, I dunno. Play soccer.. or learn more coding perhaps?Nah, I dunno. Play soccer.. or learn more coding perhaps?Nah, I dunno. Play soccer.. or learn more coding perhaps?</p>
   <span class="time-left">11:05</span>
+
+  
 </div>
+</ul>
+
+    <div className='InputBar'>
+      <input />
+      <button>
+        보내기
+      </button>
+    </div>
     </>
   )
 }
