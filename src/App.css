@@ -1,3 +1,4 @@
+/**배경*/
 .moving {
     position: absolute;
     top: 0;
@@ -7,10 +8,28 @@
     background: url('/img/bg.jpg') 0 top / 400% repeat-x;   /*전체화면을 위해 사진 높이에따라 퍼센트 조정 400%*/
     animation: moveright 80s linear infinite;   /*프레임 움직이는 속도 조절*/
 }
-
 @keyframes moveright {
     0% {background-position: 0% left;}
     100% {background-position: 600% center;}
+}
+
+.bgGradation {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee8432, #ff606c, #edca35);
+    background-size: 400% 400%;
+    animation: colorChange 3s ease infinite;
+}
+@keyframes colorChange{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
 
 .tit {

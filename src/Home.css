@@ -1,33 +1,27 @@
-.titlebox {
-    border-style: none;
-    padding: 20px 20px;
-    margin: 100px 100px;
-    color: white;
-}
-.titlebox div {
-    display: flex;
-    justify-content: center;
-}
-.titlebox img {
-    width: 30%;
+.basic {
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }
 
-
-.txt1 {
-    color: rgb(234, 241, 199);
-    text-align: center;
-    font-size: 1.6rem;
+.typing-text {
+  width: 122ch;
+  animation: typing 12s steps(122), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
 }
 
-.btn {
-    background-color: DodgerBlue;
-    border: none;
-    color: white;
-    padding: 12px 16px;
-    font-size: 16px;
-    cursor: pointer;
+@keyframes typing {
+  from {
+    width: 0
+  }
 }
-/* Darker background on mouse-over */
-.btn:hover {
-    background-color: RoyalBlue;
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }

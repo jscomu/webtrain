@@ -1,0 +1,33 @@
+.titlebox {
+    border-style: none;
+    padding: 20px 20px;
+    margin: 100px 100px;
+    color: white;
+}
+.titlebox div {
+    display: flex;
+    justify-content: center;
+}
+.titlebox img {
+    width: 30%;
+}
+
+
+.txt1 {
+    color: rgb(234, 241, 199);
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
