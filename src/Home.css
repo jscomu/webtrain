@@ -1,17 +1,19 @@
 .basic {
-  height: 100vh;
+  height: 90vh;
   display: grid;
   place-items: center;
 }
 
 .typing-text {
-  width: 122ch;
-  animation: typing 12s steps(122), blink .5s step-end infinite alternate;
+  /*width: 39ch;*/ /*글자수 비례*/
+  width: 32ch;
+  animation: typing 3s steps(50), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 2em;
+  font-size: 3em;
+  font-family: 'Nanum Pen Script', cursive; /*궁서*/
 }
 
 @keyframes typing {

@@ -8,7 +8,7 @@ function Home() {
     <>
     <div class="basic">
       <div class="typing-text">
-        The two most important days in your life are the day you are born and the day you find out why. –  Mark Twain
+        실패에서 교훈을 얻었다면 성공한 것이다.
       </div>
     </div>
     </>

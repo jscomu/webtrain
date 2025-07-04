@@ -1,5 +1,59 @@
-/** https://www.w3schools.com/howto/howto_css_chat.asp **/
 
+.Infobar {
+  overflow: hidden;
+  background-color: #9a6868;
+  position: fixed;
+  top: 1;
+  width: 100%;
+
+  display: flex;  /*정렬*/
+  align-items: center;   /* 상하 가운데 정렬 */
+}
+
+.Neon {
+  /*font-family: neon;*/
+  color: #FB4264;
+  /*font-size: 2vw;*/
+  /*line-height: 3vw;*/
+  text-shadow: 0 0 3vw #F40A35;
+}
+.Neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+.InfoBox {
+  display: flex;
+  float: left;
+  width: 50%
+}
+.InfoBox > input {
+  flex-grow: 1;
+}
+
+.InputBar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+.InputBar input {
+  flex-grow: 1;
+}
+
+/** https://www.w3schools.com/howto/howto_css_chat.asp **/
 
 .container {
   border: 2px solid #dedede;
@@ -46,16 +100,7 @@
 
 
 .ChatList {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
-.InputBar {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-}
-.InputBar input {
-  flex-grow: 1;
-}
