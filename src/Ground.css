@@ -1,0 +1,31 @@
+.mainbox {
+    border-style:dotted;
+    padding: 20px 20px;
+    margin: 100px 100px;
+    color: white;
+    /*font-size: 1.6rem;*/
+}
+.mainbox div {
+    display: flex;
+    margin: 10px 10px;
+    justify-content: center;
+}
+
+.mainbox img {
+    width: 20%;
+}
+
+
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
